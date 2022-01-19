@@ -11,3 +11,14 @@ Once the NE are labelled correctly, use ```label_relations.py``` to label the re
 
 ## Model
 The dataset created in ```label_relations.py``` can be used in ```NER_LSTM.ipynb``` to train the Bi-LSTM for NER and ```train_re_model.py``` to train the Bi-LSTM for RE. Finally, ```MRP1_Two_headed_BERT.ipynb``` could be used to train the THBM. 
+
+## Results
+The results of the models can be found in the following Table.
+
+| Model                     | Measure  |           |        |        |
+|                           | Accuracy | Precision | Recall | F1     |
+| ------------------------- | -------- | --------- | ------ | ------ |                      
+| Bi-LSTM NER               | 0.9510   | 0.9430    | 0.9510 | 0.9321 |
+| Bi-LSTM RE                | 0.4659   | 0.6731    | 0.4659 | 0.5219 |
+| Two Headed Bert Model NER | 0.9625   | 0.9502    | 0.9625 | 0.9525 |
+| Two Headed Bert Model RE  | 0.9596   | 0.9671    | 0.9596 | 0.9602 |
