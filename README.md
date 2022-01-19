@@ -16,8 +16,8 @@ The dataset created in ```label_relations.py``` can be used in ```NER_LSTM.ipynb
 The results of the models can be found in the following Table.
 
 | Model                     | Measure  |           |        |        |
-|                           | Accuracy | Precision | Recall | F1     |
-| ------------------------- | -------- | --------- | ------ | ------ |                      
+| ------------------------- | -------- | --------- | ------ | ------ |  
+|                           | Accuracy | Precision | Recall | F1     |                    
 | Bi-LSTM NER               | 0.9510   | 0.9430    | 0.9510 | 0.9321 |
 | Bi-LSTM RE                | 0.4659   | 0.6731    | 0.4659 | 0.5219 |
 | Two Headed Bert Model NER | 0.9625   | 0.9502    | 0.9625 | 0.9525 |
